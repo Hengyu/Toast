@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public struct ToastConfiguration: Equatable, Hashable {
+public struct ToastConfiguration: Equatable, Hashable, Sendable {
     public let autoHide: Bool
     public let enablePanToClose: Bool
     public let displayTime: TimeInterval
