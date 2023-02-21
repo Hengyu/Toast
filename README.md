@@ -1,11 +1,28 @@
 # Toast
 
+![](https://img.shields.io/badge/iOS-13.0%2B-green)
+![](https://img.shields.io/badge/macCatalyst-13.0%2B-green)
+![](https://img.shields.io/badge/Swift-5-orange?logo=Swift&logoColor=white)
+![](https://img.shields.io/github/last-commit/hengyu/Toast)
 ![](https://img.shields.io/github/license/hengyu/Toast)
-![](https://img.shields.io/github/issues/hengyu/Toast)
 
-A Swift Toast view - iOS 14 style - built with UIKit. 🍞
+**Toast** - A Swift Toast view in iOS 14 style.
 
 <img src="Screenshots/Grid.png">
+
+## Table of contents
+
+* [Requirements](#requirements)
+* [Installation](#installation)
+    * [Swift Package Manager](#swift-package-manager)
+    * [Manual](#manual)
+* [Usage](#usage)
+* [Acknowledgements](#acknowledgements)
+* [License](#license)
+
+## Requirements
+
+- iOS 13.0+, macCatalyst 13.0+
 
 ## Installation
 
@@ -129,10 +146,10 @@ extension MyViewController: ToastDelegate {
 }
 ```
 
+## Acknowledgements
+
+[Toast](https://github.com/Hengyu/Toast) is origniated from the [toast-swift](https://github.com/BastiaanJansen/toast-swift) by [Bastiaan Jansen](https://github.com/BastiaanJansen). We have made several updates based on the original work. And we want to express our heartful appreciation to the creator and contributers of **toast-swift**.
+
 ## Licence
 
 [Toast](https://github.com/Hengyu/Toast) is released under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-[Toast](https://github.com/Hengyu/Toast) is origniated from the [toast-swift](https://github.com/BastiaanJansen/toast-swift) by [Bastiaan Jansen](https://github.com/BastiaanJansen).
