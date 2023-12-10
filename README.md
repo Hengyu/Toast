@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/badge/iOS-13.0%2B-green)
 ![](https://img.shields.io/badge/macCatalyst-13.0%2B-green)
+![](https://img.shields.io/badge/visionOS-1.0%2B-green)
 ![](https://img.shields.io/badge/Swift-5-orange?logo=Swift&logoColor=white)
 ![](https://img.shields.io/github/last-commit/hengyu/Toast)
 ![](https://img.shields.io/github/license/hengyu/Toast)
@@ -22,7 +23,8 @@
 
 ## Requirements
 
-- iOS 13.0+, macCatalyst 13.0+
+- Swift 5.9
+- iOS 13.0+, macCatalyst 13.0+, visionOS 1.0+
 
 ## Installation
 

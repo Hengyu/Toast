@@ -7,7 +7,8 @@ let package = Package(
     name: "Toast",
     platforms: [
         .iOS(.v13),
-        .macCatalyst(.v13)
+        .macCatalyst(.v13),
+        .visionOS(.v1)
     ],
     products: [
         .library(name: "Toast", targets: ["Toast"])
