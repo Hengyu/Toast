@@ -153,6 +153,9 @@ public final class Toast {
             guard let windowScene = scene as? UIWindowScene else {
                 continue
             }
+            if #available(iOS 15.0, tvOS 15.0, visionOS 1.0, *) {
+                return windowScene.keyWindow
+            }
             if windowScene.windows.isEmpty {
                 continue
             }
